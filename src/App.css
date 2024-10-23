@@ -1,5 +1,5 @@
 :root {
-  --maincolor: #463a56;
+  --maincolor: #201b28;
   --basecolor: #6d5875;
   --accentcolor: #5f4473;
   --accentcolor2: #8377b5;
@@ -64,7 +64,7 @@
 .contact-form > input {
   height: 2.5rem;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: var(--accentcolor);
   font-size: 1.4rem;
   color: var(--basecolor);
@@ -74,7 +74,7 @@
 .contact-form > textarea {
   height: 7rem;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: var(--accentcolor2);
   font-size: 1.4rem;
   color: var(--basecolor);
@@ -89,7 +89,7 @@ input::placeholder, textarea::placeholder {
 .contact-form > button {
   height: 3rem;
   border: none;
-  border-radius: 2px;
+  border-radius: 8px;
   background-color: var(--accentcolor3);
   font-size: 1.4rem;
   color: var(--whitecolor);
